@@ -6,6 +6,10 @@ An adaptive learning system that understands what a person wants to become capab
 
 This README captures the product direction and conceptual design. It describes intended behavior; it is not a claim that these capabilities are already implemented.
 
+The [file-based data model proposal](docs/file-data-model.md) defines the proposed goal-folder layout and component responsibilities using Unix design principles. A shared capture library records raw interactions; separate components assess them and update the learning state. Detailed functionality and schemas will be designed one at a time.
+
+The [three-layer architecture](docs/architecture.md) describes Application, Data, and Intelligence, their file permissions, and an example call stack from lesson submission through assessment and the next activity.
+
 ## Product vision
 
 The experience begins as a conversation and gradually becomes a personal learning environment. The system maintains an evolving understanding of the learner and uses it to choose what should happen next.
